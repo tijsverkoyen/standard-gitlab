@@ -1,0 +1,58 @@
+[
+  {
+    "description": "Unexpected trailing comma. (comma-dangle)",
+    "check_name": "comma-dangle",
+    "severity": "major",
+    "location": {
+      "path": "/Users/tijs/Sites/tijsverkoyen/standard-gitlab/tests/index.test.js",
+      "positions": {
+        "begin": {
+          "line": 23,
+          "column": 21
+        }
+      }
+    }
+  },
+  {
+    "description": "Unexpected trailing comma. (comma-dangle)",
+    "check_name": "comma-dangle",
+    "severity": "major",
+    "location": {
+      "path": "/Users/tijs/Sites/tijsverkoyen/standard-gitlab/tests/index.test.js",
+      "positions": {
+        "begin": {
+          "line": 24,
+          "column": 12
+        }
+      }
+    }
+  },
+  {
+    "description": "Unexpected trailing comma. (comma-dangle)",
+    "check_name": "comma-dangle",
+    "severity": "major",
+    "location": {
+      "path": "/Users/tijs/Sites/tijsverkoyen/standard-gitlab/tests/index.test.js",
+      "positions": {
+        "begin": {
+          "line": 25,
+          "column": 10
+        }
+      }
+    }
+  },
+  {
+    "description": "Unexpected trailing comma. (comma-dangle)",
+    "check_name": "comma-dangle",
+    "severity": "major",
+    "location": {
+      "path": "/Users/tijs/Sites/tijsverkoyen/standard-gitlab/tests/index.test.js",
+      "positions": {
+        "begin": {
+          "line": 27,
+          "column": 24
+        }
+      }
+    }
+  }
+]

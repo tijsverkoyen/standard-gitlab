@@ -1,0 +1,44 @@
+{
+  "name": "standard-gitlab",
+  "version": "1.0.0",
+  "description": "A custom formatter for StandardJS that generates Gitlab Code Quality compatible reports",
+  "homepage": "https://github.com/tijsverkoyen/standard-gitlab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tijsverkoyen/standard-gitlab.git"
+  },
+  "bin": "bin.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "standard"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "keywords": [
+    "standard",
+    "formatter",
+    "gitlab",
+    "code",
+    "quality"
+  ],
+  "author": {
+    "name": "Tijs Verkoyen",
+    "url": "https://github.com/tijsverkoyen/"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "standard": ">=17.1.0"
+  },
+  "volta": {
+    "node": "20.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "concat-stream": "^2.0.0"
+  }
+}
