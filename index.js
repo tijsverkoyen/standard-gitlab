@@ -1,4 +1,10 @@
-#!/usr/bin/env node
+import crypto from 'crypto'
+
+function createFingerprint (source, line, column, rule) {
+  return crypto.createHash('sha256').update(
+    `${source}:${line}:${column}:${rule}`
+  ).digest('hex')
+}
 
 export default function formatter (input) {
   // ignore lines that don't match the expected format
@@ -23,7 +29,7 @@ export default function formatter (input) {
   return {
     description: `${message} (${rule})`,
     check_name: rule,
-    // fingerprint: createFingerprint(result.source, warning.line, warning.column, warning.rule),
+    fingerprint: createFingerprint(path, line, column, rule),
     severity: 'major',
     location: {
       path,

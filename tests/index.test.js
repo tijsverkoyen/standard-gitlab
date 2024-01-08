@@ -15,6 +15,7 @@ describe('formatter', () => {
     const expected = {
       check_name: 'rule',
       description: 'Some error message. (rule)',
+      fingerprint: 'b0e86eeffeeddd1efb60780a5101a8ffa33ed2d682d93f2942c3d0c63dbb8701',
       location: {
         path: '/foo.js',
         positions: {

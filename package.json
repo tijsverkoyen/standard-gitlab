@@ -1,6 +1,6 @@
 {
   "name": "standard-gitlab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom formatter for StandardJS that generates Gitlab Code Quality compatible reports",
   "homepage": "https://github.com/tijsverkoyen/standard-gitlab",
   "repository": {
